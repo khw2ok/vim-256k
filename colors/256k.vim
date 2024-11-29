@@ -1,7 +1,7 @@
 " Vim color file
-" Name:       256_noir.vim
-" Maintainer: Andreas van Cranenburgh <andreas@unstable.nl>
-" Homepage:   https://github.com/andreasvc/vim-256noir/
+" Name:       256k.vim
+" Maintainer: khw2ok <idkimwook@gmail.com>
+" Homepage:   https://github.com/khw2ok/vim-256k/
 
 " Basically: dark background, numerals & errors red,
 " rest different shades of gray.
@@ -18,7 +18,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name = "256_noir"
+let g:colors_name = "256k"
 
 if has("gui_running") || &t_Co == 256
     hi Normal cterm=NONE ctermfg=250 ctermbg=16 gui=NONE guifg=#bcbcbc guibg=#000000

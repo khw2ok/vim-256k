@@ -5,9 +5,9 @@ as well as in gvim."""
 
 PREAMBLE = """\
 " Vim color file
-" Name:       256_noir.vim
-" Maintainer: Andreas van Cranenburgh <andreas@unstable.nl>
-" Homepage:   https://github.com/andreasvc/vim-256noir/
+" Name:       256k.vim
+" Maintainer: khw2ok <idkimwook@gmail.com>
+" Homepage:   https://github.com/khw2ok/vim-256k/
 
 " Basically: dark background, numerals & errors red,
 " rest different shades of gray.
