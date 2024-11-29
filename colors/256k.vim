@@ -38,7 +38,8 @@ if has("gui_running") || &t_Co == 256
     hi SpellCap cterm=NONE ctermfg=255 ctermbg=124 gui=NONE guifg=#eeeeee guibg=#af0000
     hi SpellRare cterm=NONE ctermfg=124 ctermbg=16 gui=NONE guifg=#af0000 guibg=#000000
     hi WildMenu cterm=NONE ctermfg=240 ctermbg=255 gui=NONE guifg=#585858 guibg=#eeeeee
-    hi Pmenu cterm=NONE ctermfg=255 ctermbg=240 gui=NONE guifg=#eeeeee guibg=#585858
+    " hi Pmenu cterm=NONE ctermfg=255 ctermbg=240 gui=NONE guifg=#eeeeee guibg=#585858
+    hi Pmenu cterm=NONE ctermfg=255 ctermbg=16 gui=NONE guifg=#eeeeee guibg=16
     hi PmenuThumb cterm=NONE ctermfg=232 ctermbg=240 gui=NONE guifg=#080808 guibg=#585858
     hi SpecialKey cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guifg=#000000 guibg=#eeeeee
     hi MatchParen cterm=NONE ctermfg=16 ctermbg=240 gui=NONE guifg=#000000 guibg=#585858
@@ -65,7 +66,8 @@ else
     hi SpellCap cterm=NONE ctermfg=White ctermbg=Red
     hi SpellRare cterm=NONE ctermfg=Red ctermbg=Black
     hi WildMenu cterm=NONE ctermfg=DarkGray ctermbg=White
-    hi Pmenu cterm=NONE ctermfg=White ctermbg=DarkGray
+    " hi Pmenu cterm=NONE ctermfg=White ctermbg=DarkGray
+    hi Pmenu cterm=NONE ctermfg=White ctermbg=Black
     hi PmenuThumb cterm=NONE ctermfg=Black ctermbg=DarkGray
     hi SpecialKey cterm=NONE ctermfg=Black ctermbg=White
     hi MatchParen cterm=NONE ctermfg=Black ctermbg=DarkGray
